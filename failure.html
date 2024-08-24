@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Failure</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .failure-container {
+            text-align: center;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .failure-container h1 {
+            color: #721c24;
+            margin-bottom: 20px;
+        }
+        .failure-container p {
+            color: #721c24;
+            margin-bottom: 20px;
+        }
+        .failure-container button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #dc3545;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .failure-container button:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <div class="failure-container">
+        <h1>Failure</h1>
+        <p>Unfortunately, your operation did not succeed.</p>
+        <form class="" action="/failure" method="post">
+          <button type="submit" name="button">Home Page</button>
+        </form>
+    </div>
+</body>
+</html>
